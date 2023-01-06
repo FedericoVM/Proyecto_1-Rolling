@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/cssnosotros.css">
+  <link rel="shortcut icon" href="./assets/images/404/logo-removebg-preview.png" type="image/x-icon">
+  <title>HardCode - Nosotros</title>
+</head>
+
+<body>
+  <div id="modal-suscripcion">
+    <!-- Modal -->
+    <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Suscripción</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Ingrese su correo electrónico.</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required
+                  aria-describedby="emailHelp" />
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu email con nadie más</small>
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Recibir notificaciones
+                  por mail.</label>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <input type="submit" class="btn btn-primary" value="Aceptar">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="container-fluid px-0  sticky-top">
+    <nav
+      class="navbar  navbar-expand-md  py-2 d-flex flex-row-reverse justify-content-between align-items-center  flex-md-row align-items-md-center  ">
+      <a class="navbar-brand marca  " href="./index.html"><img src="./assets/images/nav-bar/logo.png" alt=""
+          class="logo-nav rounded-circle"> </a>
+      <button class="navbar-toggler navbar-dark  " type="button" data-toggle="collapse"
+        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  d-md-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav mt-2">
+          <a class="nav-link" href="./index.html">Inicio</a>
+          <a class="nav-link" href="./galeria.html">Galeria</a>
+          <a class="nav-link" href="#">Nosotros</a>
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+          <a class="nav-link suscripcion ml-md-3" data-toggle="modal" data-target="#staticBackdrop"
+            href="#modal-suscripcion ">Suscripción</a>
+          <a class="log-in nav-link  ml-md-2" href="./login.html">Log-in <img src="./assets/images/nav-bar/log-in.png"
+              alt="imagen-log-in" width="20rem" class="d-md-none ml-2"> </a>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main class="container-fluid   py-4 d-flex flex-column  align-items-center">
+    <div class="container-quienes-somos container d-flex  flex-column justify-content-md-around align-items-md-center ">
+      <h2 class="text-center">Sobre Nosotros</h2>
+      <div class="quienes-somos">
+        <h4 class="text-center my-md-4">¿Quiénes somos?</h4>
+        <p class="quienes-somos px-2 ">
+          El grupo <b>HardCode</b> nace en el año 2022 con el objetivo de informar sobre las últimas novedades del mundo
+          del hardware y, a su vez, proveer los mejores precios del mercado.
+        </p>
+        <p class="quienes-somos px-2 ">
+          Buscamos brindar una relación calidad-precio óptima para nuestros clientes. Además, contamos con un equipo
+          capacitado para una correcta atencion y una capacidad periodística para informar de manera simple y concreta.
+        </p>
+        <p class="quienes-somos px-2 ">
+          Tenemos la convicción de que el crecimiento está acompañado del esfuerzo, la capacitación, y el
+          respeto, tanto lectores, clientes y el mismo staff de la empresa.
+        </p>
+      </div>
+    </div>
+
+    <div class="integrantes container row d-block d-sm-block d-md-none mt-3 p-2">
+      <div
+        class="media border border-dark d-flex flex-column d-lg-flex flex-lg-row align-items-center col-lg-8 p-md-2   ">
+        <div class="contenedor-foto-perfil p-1 ">
+          <img src="./assets/images/nosotros/carlos-3.jpg" class="mt-2 img-fluid rounded-circle " alt="carlos">
+
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">
+            Mi nombre es Carlos Avanzini, soy estudiante de la carrera de Licenciatura en
+            Informática. Apasionado de los sistemas informáticas, me inclino más para la parte del BackEnd
+            pero no dejo de lado el FrontEnd. Mi lema es: "Si puede imaginarlo, puedes programarlo"
+          </p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="media border border-dark   d-flex flex-column d-lg-flex flex-lg-row-reverse align-items-center mt-4  col-lg-8 align-self-lg-end p-md-2 ">
+        <div class="contenedor-foto-perfil p-1">
+          <img src="./assets/images/nosotros/fede.jpg" class="mt-2 img-fluid rounded-circle " alt="fede">
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Me llamo Federico Valdiglesias y soy ex estudiante de la carrera de Medicina.
+            Actualmente, estoy estudiando desarrollo Full Stack en Rolling Code y con ansias de seguir
+            aprendiendo y en futuro poder trabajar de esto
+          </p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="media border border-dark  d-flex flex-column d-lg-flex flex-lg-row align-items-center mt-4 col-lg-8  p-lg-2 ">
+        <div class="contenedor-foto-perfil p-1">
+          <img src="./assets/images/nosotros/hugo.jpg" class="mt-2 img-fluid rounded-circle " alt="hugo">
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">
+            Mi nombre es Hugo Duca, tengo 25 años, futuro desarrollador Full Stack de la mano de Rolling
+            Code y Cocinero Profesional de la Escuela Patagónica. Ferviente creedor de que los sueños se
+            cumplen si pones tu 100% en ello</p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="media border border-dark  d-flex flex-column d-lg-flex flex-lg-row-reverse align-items-center mt-4 col-lg-8 align-self-lg-end p-md-2 ">
+        <div class="contenedor-foto-perfil p-1">
+          <img src="./assets/images/nosotros/avatares.png" class="mt-2 rounded-circle " alt="...">
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Mi nombre es William de 29 años, estudiante de enfermeria.
+            Conocí este mundo de tecnologia por internet y con ganas de seguir aprendiendo y poder trabajar
+            como desarrollador.</p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="media border border-dark   d-flex flex-column d-lg-flex flex-lg-row align-items-center mt-4 col-lg-8  p-lg-2 ">
+        <div class="contenedor-foto-perfil p-1">
+          <img src="./assets/images/nosotros/Ivan.jpg" class="mt-2 img-fluid rounded-circle " alt="...">
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Me llamo Iván García. Soy Técnico Mecánico Electricista. Ahora emprendo una carrera para
+            aprender programación donde espero poder ampliar mi capacidad laboral y abrirme paso en este mundo
+            maravilloso pero a la vez muy competitivo. </p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="media border border-dark   d-flex flex-column d-lg-flex flex-lg-row-reverse align-items-center mt-4 col-lg-8 align-self-lg-end p-md-2 ">
+        <div class="contenedor-foto-perfil p-1">
+          <img src="./assets/images/nosotros/avatares.png" class="mt-2 img-fluid rounded-circle " alt="...">
+        </div>
+
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Me llamo Tomás Giudice, tengo 27 años, futuro Desarrollador Full Stack. Me apasiona la
+            informática y espero, en el día de mañana, poder mejorar y avanzar de la mano de Rolling Code.</p>
+          <div class="d-flex justify-content-between mb-0 mt-2">
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg></a>
+            </p>
+            <p><a href="./404.html" class="iconos-redes-responsive"><svg xmlns="http://www.w3.org/2000/svg" width="40"
+                  height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="container-fluid d-flex flex-column align-items-center">
+
+
+    <div class="integrantes row d-md-flex flex-column align-content-center d-none d-md-block mt-3">
+      <div class="box shadow media d-flex flex-column d-lg-flex flex-lg-row align-items-center p-md-2 mr-md-5 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1">
+          <img src="./assets/images/nosotros/carlos-3.jpg" class="d-flex align-self-center h-100 rounded-circle" alt="">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros twitter"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros facebook"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros whatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2 d-flex flex-column">
+          <h5 class="mt-0 text-center">Sobre mi.</h5>
+          <div class="d-flex flex-row">
+            <p class="px-md-2 d-flex">
+              Mi nombre es Carlos Avanzini, soy estudiante de la carrera de Licenciatura en
+              Informática. Apasionado de los sistemas informáticas, me inclino más para la parte del BackEnd
+              pero no dejo de lado el FrontEnd. Mi lema es: "Si puede imaginarlo, puedes programarlo".
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div
+        class="probando-mover shadow-probar imagen-perfil-nosotros-lado-derecho d-flex flex-column ml-md-5 d-lg-flex flex-lg-row-reverse align-items-center align-self-lg-end p-md-2 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1">
+          <img src="./assets/images/nosotros/fede.jpg" class="d-flex align-self-center h-100 rounded-circle" alt="fede">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes-derecha align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha twitter"><svg style="transform: scaleX(-1);"
+                xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha whatsApp"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Me llamo Federico Valdiglesias y soy ex estudiante de la carrera de Medicina.
+            Actualmente estoy estudiando desarrollo Full Stack en Rolling Code y con ansias de seguir
+            aprendiendo y en futuro poder trabajar de esto.
+          </p>
+        </div>
+      </div>
+      <div class="box shadow media d-flex flex-column d-lg-flex flex-lg-row align-items-center p-md-2 mr-md-5 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1">
+          <img src="./assets/images/nosotros/hugo.jpg" class="d-flex align-self-center h-100 rounded-circle" alt="hugo">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros twitter"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros facebook"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros whatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">
+            Mi nombre es Hugo Duca, tengo 25 años, futuro desarrollador Full Stack de la mano de Rolling
+            Code y Cocinero Profesional de la Escuela Patagónica. Ferviente creedor de que los sueños se
+            cumplen si pones tu 100% en ello.
+          </p>
+        </div>
+      </div>
+      <div
+        class="probando-mover shadow-probar imagen-perfil-nosotros-lado-derecho d-flex flex-column ml-md-5 d-lg-flex flex-lg-row-reverse align-items-center align-self-lg-end p-md-2 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1">
+          <img src="./assets/images/nosotros/avatares.png" class="d-flex align-self-center h-100 rounded-circle"
+            alt="william">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes-derecha align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha twitter"><svg style="transform: scaleX(-1);"
+                xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha whatsApp"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Mi nombre es William de 29 años, estudiante de enfermeria.
+            Conocí este mundo de tecnología por internet y con ganas de seguir aprendiendo y poder trabajar
+            como desarrollador.
+          </p>
+        </div>
+      </div>
+      <div class="box shadow media d-flex flex-column d-lg-flex flex-lg-row align-items-center p-md-2 mr-md-5 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1 ">
+          <img src="./assets/images/nosotros/Ivan.jpg" class="d-flex align-self-center rounded-circle" alt="william">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros twitter"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros facebook"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros whatsApp"><svg xmlns="http://www.w3.org/2000/svg" width="60"
+                height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">
+            Me llamo Iván García. Soy Técnico Mecánico Electricista. Ahora emprendo una carrera para aprender
+            programación donde espero poder ampliar mi capacidad laboral y abrirme paso en este mundo maravilloso pero a
+            la vez muy competitivo.
+          </p>
+        </div>
+      </div>
+      <div
+        class="probando-mover shadow-probar imagen-perfil-nosotros-lado-derecho d-flex flex-column d-lg-flex ml-md-5 flex-lg-row-reverse align-items-center align-self-lg-end p-md-2 mb-md-5">
+        <div class="circle contenedor-foto-perfil d-flex p-1">
+          <img src="./assets/images/nosotros/avatares.png" class="d-flex align-self-center h-100 rounded-circle"
+            alt="tomás">
+        </div>
+        <div class="d-flex flex-column contenedor-de-redes-derecha align-self-center">
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha twitter"><svg style="transform: scaleX(-1);"
+                xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg></a>
+          </p>
+          <p>
+            <a href="./404.html" class="redes-de-nosotros-derecha whatsApp"><svg xmlns="http://www.w3.org/2000/svg"
+                width="60" height="60" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg></a>
+          </p>
+        </div>
+        <div class="media-body p-2">
+          <h5 class="mt-0 text-center">Sobre mí</h5>
+          <p class="px-md-2">Me llamo Tomás Giudice, tengo 27 años, futuro Desarrollador Full Stack. Me apasiona la
+            informática y espero, en el día de mañana, poder mejorar y avanzar de la mano de Rolling Code.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer container-fluid bg-dark text-white p-0 h-75">
+    <div
+      class="informacion-redes-contacto row  m-0 d-flex flex-column justify-content-center align-items-center d-md-flex flex-md-row  ">
+      <div class="contacto-redes d-flex flex-column  align-items-center col-md-4 pt-2">
+        <ul class="img-contacto p-0 list-unstyled mt-2 mb-md-0">
+          <li class="mb-3 align-items-center ">
+            <img src="./assets/images/footer/casa.png" alt="imagen-hogar" /> General Paz 576 - San Miguel de Tucumán -
+            Tucumán
+          </li>
+          <li class="mb-3 ">
+            <img src="./assets/images/footer/llamada-de-telefono-inteligente.png" alt="imagen-telefono" />
+            3815411333
+          </li>
+          <li class="">
+            <img src="./assets/images/footer/sobre-de-correo-electronico.png" alt="imagen-mensaje" />
+            <a href="mailto:hardcode@gmail.com"></a> HardCode@gmail.com
+          </li>
+        </ul>
+        <div class="redes mt-3 w-75  ">
+          <ul class="img-redes m-0  d-flex justify-content-around   list-unstyled ">
+            <li class="">
+              <a href="./404.html" target="_blank"><img src="./assets/images/footer/facebook.png" alt="img-1" /></a>
+            </li>
+            <li class="">
+              <a href="./404.html" target="_blank"><img src="./assets/images/footer/twitter.png" alt="img-2" /></a>
+            </li>
+            <li class="">
+              <a href="./404.html" target="_blank"><img src="./assets/images/footer/instagram.png" alt="img-3" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="logo-informacion  d-flex flex-column align-items-center col-md-4 p-2  ">
+        <img src="./assets/images/nav-bar/logo.png" alt="logo-footer" class="logo rounded-circle mt-2">
+      </div>
+      <div class="menu-atajo  d-flex flex-column align-items-start mt-3  col-md-4 pt-2">
+        <nav
+          class="  flex-wrap w-100 mb-2 mt-2 d-flex flex-column justify-content-around align-items-center mb-5 mt-md-4">
+          <a href="./404.html" class="text-decoration-none text-white mb-2" target="_blank">FAQ</a>
+          <a href="./404.html" class="text-decoration-none text-white mb-2 " target="_blank">La Empresa</a>
+          <a href="./404.html" class="text-decoration-none text-white mb-2" target="_blank">Política y Privacidad</a>
+          <a href="./404.html" class="text-decoration-none text-white " target="_blank">Términos y Condiciones</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="derechos  text-center text-white">
+      <p class="m-0">Todos los derechos reservados &copy; 2022</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

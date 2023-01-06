@@ -1,0 +1,250 @@
+label {
+	color: grey;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.clasificacion {
+	direction: rtl;
+	/* right to left */
+	unicode-bidi: bidi-override;
+	/* bidi de bidireccional */
+}
+
+label:hover {
+	color: orange;
+}
+
+label:hover~label {
+	color: orange;
+}
+
+input[type="radio"]:checked~label {
+	color: orange;
+}
+
+
+.boton {
+	display: block;
+	width: 60px;
+	height: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	border-radius: 1000px;
+	margin: 100px 600px;
+	padding: 10px 10px;
+	background-color: rgba(19, 24, 24, 0.233);
+}
+
+/* estilos fede-valdiglesias */
+div.card img {
+	width: 50%;
+
+}
+
+div.video-placa {
+	width: 92%;
+	height: 36vh;
+
+}
+
+
+/* ------------------------------- */
+
+
+
+.fotito {
+	border: 3px;
+}
+
+.dimensiones {
+	background: chartreuse;
+}
+
+.resolucion {
+	background: darkgreen;
+}
+
+.refrigeracion {
+	background: forestgreen;
+}
+
+
+
+
+
+
+/*------------------ INICIO CSS DE FEDERICO VALDIGLESIAS ------------------------------ */
+aside {
+	padding: 0;
+}
+
+/* header */
+nav.navbar {
+	background-image: linear-gradient(to top,
+			rgb(49, 49, 47), rgb(27, 23, 23));
+}
+
+
+div.navbar-nav a {
+	color: rgb(238, 235, 221);
+	transition: all .2s;
+}
+
+div.navbar-nav a:hover {
+	color: rgb(197, 192, 192);
+	border-bottom: 2px solid rgb(197, 192, 192);
+}
+
+
+/* Logo */
+img.logo-nav {
+	width: 4rem;
+}
+
+/* --------------- */
+
+
+/*---- foto-perfil ------ */
+
+div.contenedor-foto-perfil img {
+	width: 100%;
+}
+
+/*------------------------ */
+
+
+/* modal-suscrpcion */
+div.modal-suscripcion label {
+	color: #010502;
+}
+
+
+
+
+/*----------- Inicio footer------------------- */
+.derechos {
+	background-color: #010502;
+}
+
+/* Imagen logo */
+.logo {
+	width: 5rem;
+}
+
+ul.img-contacto li img {
+	width: 1.4rem;
+	padding-right: 3px;
+}
+
+/* Iconos de las redes sociales  */
+
+ul.img-redes li img {
+	width: 1.8rem;
+}
+
+
+/* -------Fin footer --------------------------- */
+@media screen and (max-width: 575px) {
+	.cuerpo-derecho {
+		height: 30%;
+	}
+
+	.carousel-item {
+		max-height: 53vh;
+	}
+
+	.carousel-item img {
+		height: 28vh;
+
+	}
+
+	.main-placa {
+		font-size: 1rem;
+	}
+
+
+}
+
+@media screen and (min-width: 760px) {
+	/*------ Nav-bar --------- */
+
+	a.log-in {
+		border: 1px solid rgb(129, 0, 0);
+		border-radius: 17px;
+
+
+		background-image: linear-gradient(to right,
+				rgb(145, 14, 14),
+				rgb(168, 1, 1));
+	}
+
+	a.suscripcion {
+		border: 1px solid rgb(129, 0, 0);
+		border-radius: 17px;
+		background-image: linear-gradient(to right,
+				rgb(145, 14, 14),
+				rgb(168, 1, 1));
+		transition: all .1s;
+	}
+
+	a.suscripcion:hover {
+		color: rgb(197, 192, 192);
+		border-bottom: 2px solid rgb(197, 192, 192);
+	}
+
+	/* ------------ Footer ------------------ */
+
+	.informacion-redes-contacto {
+		height: 35vh;
+	}
+
+	.contacto-redes,
+	.informacion-adicional {
+		max-height: 100%;
+	}
+
+	.cuerpo-derecho {
+		height: 55%;
+	}
+
+	/* Quienes somos */
+	div.container-quienes-somos {
+		width: 60vw;
+	}
+
+	div.integrantes {
+		width: 60vw;
+	}
+
+	img.logo {
+		width: 8rem;
+	}
+
+	/* carrusel */
+
+	.carousel-item {
+		max-height: 57vh;
+	}
+
+	.carousel-item img {
+		height: 57vh;
+
+	}
+
+	div.card img {
+		width: 65%;
+
+	}
+
+	div.video-placa {
+		width: 92%;
+		height: 65vh;
+
+	}
+
+}
+
+/* ----------------- FIN DEL CSS DE FEDERICO VALDIGLESIAS -------------------------------- */

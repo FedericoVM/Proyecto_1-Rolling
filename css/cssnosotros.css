@@ -1,0 +1,338 @@
+/*------------------ INICIO CSS DE FEDERICO VALDIGLESIAS ------------------------------ */
+aside {
+  padding: 0;
+}
+
+/* header */
+nav.navbar {
+  background-image: linear-gradient(to top,
+      rgb(49, 49, 47), rgb(27, 23, 23));
+}
+
+
+div.navbar-nav a {
+  color: rgb(238, 235, 221);
+  transition: all .2s;
+}
+
+div.navbar-nav a:hover {
+  color: rgb(197, 192, 192);
+  border-bottom: 2px solid rgb(197, 192, 192);
+}
+
+
+/* Logo */
+img.logo-nav {
+  width: 4rem;
+}
+
+/* --------------- */
+
+
+/*---- foto-perfil ------ */
+
+div.contenedor-foto-perfil img {
+  width: 100%;
+}
+
+/*------------------------ */
+
+
+/* modal-suscrpcion */
+div.modal-suscripcion label {
+  color: #010502;
+}
+
+
+
+
+/*----------- Inicio footer------------------- */
+.derechos {
+  background-color: #010502;
+}
+
+/* Imagen logo */
+.logo {
+  width: 5rem;
+}
+
+ul.img-contacto li img {
+  width: 1.4rem;
+  padding-right: 3px;
+}
+
+/* Iconos de las redes sociales  */
+
+ul.img-redes li img {
+  width: 1.8rem;
+}
+
+
+/* -------Fin footer --------------------------- */
+@media screen and (max-width: 575px) {
+  .cuerpo-derecho {
+    height: 30%;
+  }
+
+  .carousel-item {
+    max-height: 53vh;
+  }
+
+  .carousel-item img {
+    height: 28vh;
+
+  }
+}
+
+@media screen and (min-width: 760px) {
+  /*------ Nav-bar --------- */
+
+  a.log-in {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+
+
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+  }
+
+  a.suscripcion {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+    transition: all .1s;
+  }
+
+  a.suscripcion:hover {
+    color: rgb(197, 192, 192);
+    border-bottom: 2px solid rgb(197, 192, 192);
+  }
+
+  /* ------------ Footer ------------------ */
+
+  .informacion-redes-contacto {
+    height: 35vh;
+  }
+
+  .contacto-redes,
+  .informacion-adicional {
+    max-height: 100%;
+  }
+
+  .cuerpo-derecho {
+    height: 55%;
+  }
+
+  /* Quienes somos */
+  div.container-quienes-somos {
+    width: 60vw;
+  }
+
+  div.integrantes {
+    width: 60vw;
+  }
+
+  img.logo {
+    width: 8rem;
+  }
+
+  /* carrusel */
+
+  .carousel-item {
+    max-height: 57vh;
+  }
+
+  .carousel-item img {
+    height: 57vh;
+
+  }
+
+}
+
+/* ----------------- FIN DEL CSS DE FEDERICO VALDIGLESIAS -------------------------------- */
+
+/*INDEX PRINCIPAL*/
+
+.iconos-redes-responsive {
+  color: black;
+}
+
+.iconos-redes-responsive:active {
+  color: black;
+  text-decoration: none;
+}
+
+.box {
+  margin-left: -20%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+  color: darkslategray;
+  box-shadow: 1px 2px 1px -1px #777;
+  transition: 200ms ease-in-out;
+}
+
+.shadow {
+  position: relative;
+}
+
+.shadow:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  right: 7px;
+  width: 25%;
+  top: 0;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(3deg);
+  transition: all .5s ease-in-out;
+}
+
+.box:hover {
+  background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+}
+
+.shadow:hover::before {
+  transform: rotate(0deg);
+  bottom: 20px;
+  z-index: -10;
+}
+
+.circle {
+  border-radius: 50%;
+  box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px antiquewhite;
+  width: 35%;
+  height: 100%;
+}
+
+.contenedor-de-redes {
+  text-decoration: none;
+  margin-left: 95.5%;
+  transition: all .5s;
+  position: absolute;
+  transition: all .5s cubic-bezier(1.000, -0.285, 0.020, 1.510);
+  transition-timing-function: cubic-bezier(1.000, -0.285, 0.020, 1.510);
+  z-index: -1;
+}
+
+.redes-de-nosotros {
+  text-decoration: none;
+  color: rgb(104, 100, 100);
+  transition: all .5s;
+}
+
+.shadow:hover .contenedor-de-redes {
+  margin-left: 100%;
+  border-radius: 30px;
+  z-index: 0;
+}
+
+.shadow:hover .twitter {
+  color: rgb(26, 161, 242);
+}
+
+.shadow:hover .facebook {
+  color: rgb(66, 103, 178);
+}
+
+.shadow:hover .whatsApp {
+  color: rgb(37, 211, 102);
+}
+
+.redes-de-nosotros svg {
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.redes-de-nosotros:hover svg {
+  transform: scale(1.3);
+}
+
+.imagen-perfil-nosotros-lado-derecho {
+  margin-right: -20%;
+}
+
+.probando-mover {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: linear-gradient(to left, #abbd73 35%, #d6e2ad 100%);
+  color: darkslategray;
+  transition: 200ms ease-in-out;
+}
+
+.probando-mover:hover {
+  background: linear-gradient(to left, #abbd73 0%, #abbd73 100%);
+}
+
+.shadow-probar {
+  position: relative;
+}
+
+.shadow-probar::after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 13px;
+  left: 7px;
+  width: 25%;
+  top: 0;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+  transition: all .5s ease-in-out;
+}
+
+.shadow-probar:hover::after {
+  transform: rotate(0deg);
+  bottom: 20px;
+  z-index: -10;
+}
+
+.contenedor-de-redes-derecha {
+  text-decoration: none;
+  color: black;
+  margin-right: 95.5%;
+  transition: all .5s;
+  transition: all .5s cubic-bezier(1.000, -0.285, 0.020, 1.510);
+  transition-timing-function: cubic-bezier(1.000, -0.285, 0.020, 1.510);
+  position: absolute;
+  z-index: -1;
+}
+
+.redes-de-nosotros-derecha {
+  text-decoration: none;
+  color: rgb(104, 100, 100);
+  transition: all .5s;
+}
+
+.shadow-probar:hover .contenedor-de-redes-derecha {
+  margin-right: 100%;
+  border-radius: 30px;
+  z-index: 0;
+}
+
+.shadow-probar:hover .twitter {
+  color: rgb(26, 161, 242);
+}
+
+.shadow-probar:hover .facebook {
+  color: rgb(66, 103, 178);
+}
+
+.shadow-probar:hover .whatsApp {
+  color: rgb(37, 211, 102);
+}
+
+.redes-de-nosotros-derecha svg {
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.redes-de-nosotros-derecha:hover svg {
+  transform: scale(1.3);
+}

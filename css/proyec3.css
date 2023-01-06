@@ -1,0 +1,123 @@
+table {
+	width: 98;
+}
+
+table,
+th,
+td {
+	border: 1px solid rgb(175, 168, 168);
+	padding: 6px;
+	text-align: center;
+}
+
+main.cpu img {
+	width: 90%;
+
+}
+
+.sumario {
+
+	color: #6C727A;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 25.2px;
+	letter-spacing: 0;
+	text-align: left;
+	font-family: Tofino, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: 400;
+	text-transform: none;
+	border-bottom: 2px solid #cde1c1;
+	padding: 0 0 18px;
+	margin-top: 40.32px;
+	margin-bottom: 40.32px;
+}
+
+
+label {
+	color: grey;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.clasificacion {
+	direction: rtl;
+	/* right to left */
+	unicode-bidi: bidi-override;
+	/* bidi de bidireccional */
+}
+
+label:hover {
+	color: orange;
+}
+
+label:hover~label {
+	color: orange;
+}
+
+input[type="radio"]:checked~label {
+	color: orange;
+}
+
+
+
+
+
+
+
+.comment {
+	display: block;
+	transition: all 2s;
+}
+
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	padding: 6px 11px
+}
+
+.container textarea {
+	width: 100%;
+	border: none;
+	background: #E8E8E8;
+	padding: 6px 11px;
+	height: 40%;
+	border-radius: 6px 6px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.2s;
+	margin-top: 13px;
+}
+
+button.primaryContained {
+	background: #016ba8;
+	color: #fff;
+	padding: 7px 7px;
+	border: none;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+	transition: 2s all;
+	font-size: 9px;
+	border-radius: 4px;
+}
+
+
+
+
+@media screen and (max-width: 860px) {
+	.video-cpu {
+		height: 28vh;
+	}
+}
+
+
+@media screen and (min-width: 861px) {
+	.video-cpu {
+		height: 55vh;
+	}
+}

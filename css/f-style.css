@@ -1,0 +1,184 @@
+/*------------------ INICIO CSS DE FEDERICO VALDIGLESIAS ------------------------------ */
+
+/* header */
+nav.navbar {
+  background-image: linear-gradient(to top,
+      rgb(49, 49, 47), rgb(27, 23, 23));
+}
+
+
+div.navbar-nav a {
+  color: rgb(238, 235, 221);
+}
+
+div.navbar-nav a:hover {
+  color: rgb(197, 192, 192);
+  border-bottom: 2px solid rgb(197, 192, 192);
+}
+
+
+
+
+/* Logo */
+img.logo-nav {
+  width: 4rem;
+}
+
+/* --------------- */
+
+/*---- foto-perfil ------ */
+
+div.contenedor-foto-perfil img {
+  width: 100%;
+}
+
+/*------------------------ */
+
+/*----------- Inicio footer------------------- */
+.derechos {
+  background-color: #010502;
+}
+
+/* Imagen logo */
+.logo {
+  width: 8rem;
+}
+
+ul.img-contacto li img {
+  width: 1.4rem;
+  padding-right: 3px;
+}
+
+/* Iconos de las redes sociales  */
+
+ul.img-redes li img {
+  width: 1.8rem;
+}
+
+
+/* -------Fin footer --------------------------- */
+
+@media screen and (min-width: 760px) {
+  /*------ Nav-bar --------- */
+
+  a.log-in {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+
+
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+  }
+
+  a.suscripcion {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+    transition: all .1s;
+  }
+
+  a.suscripcion:hover {
+    color: rgb(197, 192, 192);
+    border-bottom: 2px solid rgb(197, 192, 192);
+  }
+
+  div.navbar-nav a.suscripcion:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+  /* ------------ Footer ------------------ */
+
+  .informacion-redes-contacto {
+    height: 35vh;
+  }
+
+  .contacto-redes,
+  .logo-informacion,
+  .informacion-adicional {
+    height: 100%;
+  }
+
+  div.container-quienes-somos {
+    width: 60vw;
+  }
+
+  div.integrantes {
+    width: 60vw;
+  }
+}
+
+/* ----------------- FIN DEL CSS DE FEDERICO VALDIGLESIAS -------------------------------- */
+
+
+/* ----------- CSS DE IVAN -----------*/
+main div.titulo-contacto {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main div div form {
+
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgba(172, 0, 0, 0.637);
+
+
+}
+
+main div div form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+
+}
+
+main div div form input[type="text"],
+main div div form input[type="email"] {
+  width: 80%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+main div div form input[type="submit"] {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #000;
+}
+
+main div div form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  resize: none;
+  display: block;
+}
+
+div.mapa {
+  border: 3px solid rgb(172, 0, 0);
+  border-radius: 3px;
+}

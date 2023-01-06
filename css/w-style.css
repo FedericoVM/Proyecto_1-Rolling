@@ -1,0 +1,477 @@
+/*------------------ INICIO CSS DE FEDERICO VALDIGLESIAS ------------------------------ */
+aside {
+  padding: 0;
+}
+
+/* header */
+nav.navbar {
+  background-image: linear-gradient(to top,
+      rgb(49, 49, 47), rgb(27, 23, 23));
+}
+
+
+div.navbar-nav a {
+  color: rgb(238, 235, 221);
+  transition: all .2s;
+}
+
+div.navbar-nav a:hover {
+  color: rgb(197, 192, 192);
+  border-bottom: 2px solid rgb(197, 192, 192);
+}
+
+
+/* Logo */
+img.logo-nav {
+  width: 4rem;
+}
+
+/* --------------- */
+
+
+/*---- foto-perfil ------ */
+
+div.contenedor-foto-perfil img {
+  width: 100%;
+}
+
+/*------------------------ */
+
+
+/* modal-suscrpcion */
+div.modal-suscripcion label {
+  color: #010502;
+}
+
+
+
+
+/*----------- Inicio footer------------------- */
+.derechos {
+  background-color: #010502;
+}
+
+/* Imagen logo */
+.logo {
+  width: 5rem;
+}
+
+ul.img-contacto li img {
+  width: 1.4rem;
+  padding-right: 3px;
+}
+
+/* Iconos de las redes sociales  */
+
+ul.img-redes li img {
+  width: 1.8rem;
+}
+
+
+/* -------Fin footer --------------------------- */
+@media screen and (max-width: 575px) {
+  .cuerpo-derecho {
+    height: 30%;
+  }
+
+  .carousel-item {
+    max-height: 53vh;
+  }
+
+  .carousel-item img {
+    height: 28vh;
+
+  }
+}
+
+@media screen and (min-width: 760px) {
+  /*------ Nav-bar --------- */
+
+  a.log-in {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+
+
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+  }
+
+  a.suscripcion {
+    border: 1px solid rgb(129, 0, 0);
+    border-radius: 17px;
+    background-image: linear-gradient(to right,
+        rgb(145, 14, 14),
+        rgb(168, 1, 1));
+    transition: all .1s;
+  }
+
+  a.suscripcion:hover {
+    color: rgb(197, 192, 192);
+    border-bottom: 2px solid rgb(197, 192, 192);
+  }
+
+  /* ------------ Footer ------------------ */
+
+  .informacion-redes-contacto {
+    height: 35vh;
+  }
+
+  .contacto-redes,
+  .informacion-adicional {
+    max-height: 100%;
+  }
+
+  .cuerpo-derecho {
+    height: 55%;
+  }
+
+  /* Quienes somos */
+  div.container-quienes-somos {
+    width: 60vw;
+  }
+
+  div.integrantes {
+    width: 60vw;
+  }
+
+  img.logo {
+    width: 8rem;
+  }
+
+  /* carrusel */
+
+  .carousel-item {
+    max-height: 65vh;
+  }
+
+  .carousel-item img {
+    height: 70vh;
+
+  }
+
+}
+
+
+/*CSS DEL INDEX PRINCIPAL*/
+
+.slider-controler {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.slider-controler li {
+  margin: 0 0.5rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.slider-controler a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .caption {
+    font-size: 96px;
+    bottom: 96px;
+    right: 50px;
+  }
+}
+
+/*FIN DEL CARROSEL*/
+
+
+
+/*INICIO DE JUMBOTRON*/
+
+.jumbo-1 {
+  background-image: linear-gradient(to right, rgb(238, 6, 6), rgba(245, 41, 41, 0.616), rgba(255, 255, 255, 0)),
+    url("../assets/images/index/latin-t35f-lf24t350fhlxzp-frontblack-301443711.webp");
+  background-position: 50%;
+
+  border-right: solid rgba(211, 53, 53, 0.74);
+  border-bottom: solid rgba(204, 110, 110, 0.74);
+}
+
+.jumbo-2 {
+  background-image: linear-gradient(to right, rgb(238, 6, 6), rgba(245, 41, 41, 0.616), rgba(255, 255, 255, 0.438)),
+    url("../assets/images/jumbotron/mejores-teclado-mecanico-argentina.jpg");
+  background-position: 50%;
+
+  border-right: solid rgba(211, 53, 53, 0.74);
+  border-bottom: solid rgba(204, 110, 110, 0.74);
+}
+
+.jumbo-3 {
+  background-image: linear-gradient(to right, rgb(238, 6, 6), rgba(245, 41, 41, 0.274), rgba(255, 255, 255, 0.253)),
+    url("../assets/images/jumbotron/mejores-teclado-mecanico-argentina.jpg");
+  background-position: 50%;
+  border-right: solid rgba(211, 53, 53, 0.74);
+  border-bottom: solid rgba(204, 110, 110, 0.74);
+}
+
+/*CHECK LIST*/
+
+.check-list {
+  margin: 0;
+}
+
+.check-list li {
+  position: relative;
+  list-style-type: none;
+
+}
+
+.check-list li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  margin-top: 1%;
+  width: 5px;
+  height: 11px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #00a8a8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+}
+
+/*FIN DE JUMBOTRON*/
+
+/* BOTONES DE PAGINACION*/
+
+.pagination-container {
+  margin-top: 1em;
+  padding-top: 2em;
+  border-top: 1px solid #d7dadb;
+  text-align: center;
+}
+
+.pagination-item {
+  list-style-type: none;
+  display: inline-block;
+  border-right: 1px solid #d7dadb;
+  transform: scale(1) rotate(19deg) translateX(0px) translateY(0px) skewX(-10deg) skewY(-20deg);
+  transition: all .15s;
+}
+
+.pagination-item:hover,
+.pagination-item.is-active {
+  background-color: #fa4248;
+  border-right: 1px solid #fff;
+
+}
+
+.pagination-link {
+  color: #fff;
+}
+
+.pagination-item.first-number {
+  border-left: 1px solid #d7dadb;
+}
+
+.pagination-link {
+  padding: 1.1em 1.6rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  transform: scale(1) rotate(0deg) translateX(0px) translateY(0px) skewX(20deg) skewY(0deg);
+}
+
+.pagination-link:hover {
+  text-decoration: none;
+  color: #e0f2fc;
+}
+
+.pagination-item--wide {
+  list-style-type: none;
+  align-self: center;
+}
+
+.pagination-link--wide {
+  text-decoration: none;
+  color: #000000;
+  padding: 1.1em 1.6em;
+  transition: all .25s;
+}
+
+.pagination-link--wide:hover {
+  color: #fa4248;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*FIN DE BOTONES DE PAGINACION*/
+
+/*FIN DEL INDEX PRINCIPAL IZQUIERDO*/
+
+/*INICIO DEL INDEX PRINCIPAL DERECHO*/
+.cuerpo-derecho {
+  background-color: rgba(10, 10, 10, 0.089);
+}
+
+.cuerpo-derecho hr {
+  background-color: black;
+}
+
+/*INICIO DE CSS DEL BOTON PARA BUSCAR*/
+:root {
+  --rad: .7rem;
+  --dur: .3s;
+  --color-dark: #233026;
+  --color-light: rgb(156, 145, 145);
+  --color-brand: rgba(253, 0, 0, 0.445);
+  --font-fam: 'Lato', sans-serif;
+  --height: 3rem;
+  --btn-width: 6rem;
+  --bez: cubic-bezier(0, 0, 0.43, 1.49);
+}
+
+.formulario-buscador {
+  position: relative;
+  width: 100%;
+  background: white;
+  border-radius: var(--rad);
+}
+
+.input-del-buscador,
+.boton-go-deslisable {
+  height: var(--height);
+  font-family: var(--font-fam);
+  border: 0px;
+  color: var(--color-dark);
+  font-size: 2rem;
+}
+
+.input-del-buscador[type="search"] {
+  outline: none;
+  width: 100%;
+  background: var(--color-light);
+  padding-left: 15px;
+  border-radius: var(--rad);
+  appearance: none;
+  transition: all var(--dur) var(--bez);
+  font-size: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.boton-go-deslisable {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--btn-width);
+  font-size: 2rem;
+  font-weight: bold;
+  background: var(--color-brand);
+  border-radius: 0 var(--rad) var(--rad) 0;
+}
+
+.input-del-buscador:not(:placeholder-shown) {
+  border-radius: var(--rad) 0 0 var(--rad);
+  width: calc(100% - var(--btn-width));
+}
+
+.input-del-buscador[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+
+.input-del-buscador::placeholder {
+  color: white
+}
+
+/*FIN DEL CSS DE BOTON PARA BUSCAR*/
+
+/*INICIO DEL CSS DEL PEQUEÑO FORMULARIO*/
+.contenedor-del-buscador-marca {
+  width: 100%;
+}
+
+.rango-precio {
+  font-size: 3vh;
+}
+
+#browser {
+  border: 0px;
+  border-radius: 5px;
+}
+
+div form label {
+  color: black;
+  font-size: 3vh;
+  font: bold;
+}
+
+.boton-busqueda-derecha {
+  width: 50%;
+  border: 0px;
+  font-size: 22px;
+  background-image: linear-gradient(to right, rgb(163, 153, 153), rgb(154, 170, 80));
+  border-radius: 5px;
+  color: rgb(160, 55, 23);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/*FIN DEL PEQUEÑO FORMULARIO*/
+
+/*INICIO DEL ACORDEON DESLIZABLE*/
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 13rem;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  transition: .25s;
+}
+
+.accordion {
+  padding-bottom: 100px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "PT Sans" sans-serif
+}
+
+.accordion .accordion-items {
+
+  border-bottom: 1px solid rgb(235, 13, 13);
+  padding: 1em;
+  color: rgb(22, 20, 20);
+}
+
+.nombre-de-categorias {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(61, 46, 23);
+}
+
+.sub-categorias {
+  color: rgb(129, 76, 76);
+  transition: all .25s;
+}
+
+.sub-categorias svg {
+  color: black;
+}
+
+.sub-categorias:hover {
+  color: rgb(194, 60, 60);
+  font-size: 30px;
+}
+
+/*FIN DEL ACORDEON DESLIZABLE*/
